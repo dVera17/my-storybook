@@ -1,13 +1,16 @@
 {
   "name": "ds-label-components",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "label",
     "components",
     "design-system",
-    "santi"
+    "santi",
+    "learning"
   ],
   "license": "MIT",
   "homepage": "https://github.com/dVera17",
