@@ -38,7 +38,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:npm": "np",
+    "test": "echo 'No tests specified'"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
@@ -76,5 +78,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "engines": {
+    "node": ">=0.10.3"
   }
 }
